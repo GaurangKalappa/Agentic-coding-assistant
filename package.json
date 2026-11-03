@@ -5,7 +5,6 @@
   "keywords": [
     "cli"
   ],
-  "license": "ISC",
   "author": "user",
   "type": "module",
   "main": "dist/cli/index.js",
