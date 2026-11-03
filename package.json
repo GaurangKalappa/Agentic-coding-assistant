@@ -1,0 +1,40 @@
+{
+  "name": "ai-coding-agent",
+  "version": "1.0.0",
+  "description": "agentic coding assistant",
+  "keywords": [
+    "cli"
+  ],
+  "license": "ISC",
+  "author": "user",
+  "type": "module",
+  "main": "dist/cli/index.js",
+  "bin": {
+    "aicodingagent": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/cli/index.js",
+    "dev": "tsx src/cli/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.38",
+    "@langchain/openai": "^1.4.1",
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "diff": "^8.0.4",
+    "dotenv": "^17.4.1",
+    "enquirer": "^2.4.1",
+    "ora": "^9.3.0",
+    "readline": "^1.3.0",
+    "util": "^0.12.5",
+    "zod": "^4.3.6"
+  }
+}
